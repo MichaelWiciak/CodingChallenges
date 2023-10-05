@@ -11,8 +11,12 @@
             "id": "dfa2e0310721604d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II/Notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II/Notes.md"
+              }
             }
           }
         ]
@@ -140,12 +148,12 @@
   },
   "active": "dfa2e0310721604d",
   "lastOpenFiles": [
-    "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II/Notes.md",
-    "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II/solution.py",
     "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II/Task.md",
+    "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II/Notes.md",
     "Easy Interview Questions/Array/Remove Duplicates from Sorted Array/Task.md",
-    "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II",
     "Easy Interview Questions/Array/Remove Duplicates from Sorted Array/Notes.md",
+    "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II/solution.py",
+    "Easy Interview Questions/Array/Best Time to Buy and Sell Stock II",
     "Pasted image 20231003152933.png",
     "Pasted image 20231003152859.png",
     "Easy Interview Questions/Array/Remove Duplicates from Sorted Array/Test.md",
