@@ -22,4 +22,20 @@ Approach
 			sell at 4
 		buy at 1
 			sell at 4
-	
+
+An approach that worked:
+	Example code:
+		```totalProfit=0
+	        for i in range(1, len(prices), 1):
+	            if prices[i]>prices[i-1]:
+                totalProfit += prices[i] - prices[i-1] 
+		return totalProfit```
+    Correctness:
+	    This passes all test cases but it seems wrong
+	    To me, this problem can be much more complex such as the case of [1,2,3,2,3,2,3,2,3,2,3,2, 1000] and other times where it might be more worth holding onto the stock for longer. This needs to be explored further. 
+	Time:
+		![[Pasted image 20231005140922.png]]
+	Space:
+		![[Pasted image 20231005140939.png]]
+
+ 
