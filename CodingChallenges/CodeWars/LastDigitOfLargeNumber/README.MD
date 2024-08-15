@@ -4,7 +4,9 @@
 
 Given a list `[x1, x2, x3, ..., xn]`, the task is to compute the last (decimal) digit of the expression:
 
+$$
 \[ x_1 ^ {x_2 ^ {x_3 ^ { \cdots ^ {x_n} }}} \]
+$$
 
 ### Example
 
