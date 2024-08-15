@@ -12,7 +12,9 @@ $$
 
 For example, with the input `[3, 4, 2]`, your code should return `1` because:
 
+$$
 \[ 3 ^ {(4 ^ 2)} = 3 ^ {16} = 43046721 \]
+$$
 
 The last digit is `1`.
 
@@ -20,7 +22,7 @@ The last digit is `1`.
 
 - **Rapid Growth**: Powers grow incredibly fast. For instance, \( 9 ^ {9 ^ 9} \) has more than 369 million digits. The solution must efficiently handle such large numbers.
 - **Corner Cases**:
-  - We assume that \( 0 ^ 0 = 1 \).
+  - We assume that $$\( 0 ^ 0 = 1 \)$$.
   - The last digit of an empty list equals `1`.
 
 ### Test Cases
