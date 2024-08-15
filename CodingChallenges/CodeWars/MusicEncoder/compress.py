@@ -1,8 +1,17 @@
-def compress(raw):
+def compress(raw) -> str:
+    """
+    Compress a list of integers into a string
+    :param raw: a list of integers or a string of integers separated by commas
+    :return: a string representing the compressed version of the input list
+    """
 
     # If the input is empty, return an empty string
     if not raw:
         return ""
+
+    # if the input is a string, convert it to a list of integers
+    if isinstance(raw, str):
+        raw = list(map(int, raw.split(",")))
 
     compressed = []
     n = len(raw)
