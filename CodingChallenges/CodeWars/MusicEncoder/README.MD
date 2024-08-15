@@ -30,3 +30,7 @@ The task is to compress an input signal represented as an array of integers by i
 
 - Input: `'1,10,8,6,7'`  
   Output: `'1,10-6/2
+
+Solution in compress.py:
+Time Complexity: O(n) — The function runs in linear time relative to the size of the input array.
+Space Complexity: O(n) — The function uses space proportional to the input size.
