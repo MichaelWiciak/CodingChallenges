@@ -20,7 +20,7 @@ The last digit is `1`.
 
 ### Important Notes
 
-- **Rapid Growth**: Powers grow incredibly fast. For instance, \( 9 ^ {9 ^ 9} \) has more than 369 million digits. The solution must efficiently handle such large numbers.
+- **Rapid Growth**: Powers grow incredibly fast. For instance, $$\( 9 ^ {9 ^ 9} \)$$ has more than 369 million digits. The solution must efficiently handle such large numbers.
 - **Corner Cases**:
   - We assume that $$\( 0 ^ 0 = 1 \)$$.
   - The last digit of an empty list equals `1`.
