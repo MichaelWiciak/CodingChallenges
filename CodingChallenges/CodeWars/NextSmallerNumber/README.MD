@@ -14,6 +14,7 @@ Return `-1` (for Haskell: return `Nothing`, for Rust: return `None`) when there 
 
 - `next_smaller(9) == -1`
 - `next_smaller(135) == -1`
-- `next_smaller(1027) == -1` <!-- 0721 is invalid as we don't write numbers with leading zeros -->
+- `next_smaller(1027) == -1`
+  0721 is invalid as we don't write numbers with leading zeros.
 
 Some tests will include very large numbers. Test data only employs positive integers.
