@@ -17,9 +17,6 @@ def last_digit_naive(lst):
 
 
 def last_digit_simplified(lst):
-    """
-    To compute the last decimal digit of the expression \( x_1^{x_2^{x_3^{\dots^{x_n}}}} \), you can use modular arithmetic and cyclic properties of last digits. First, determine the cycle length of the last digit for the base number \( x_1 \mod 10 \). Then, reduce the exponent modulo this cycle length to manage the size of the numbers. For nested exponents, compute from the innermost part outward, handling each level with modular reduction based on the cycle of the last digit. Special cases include handling lists with only one element or zeros correctly. By breaking down the problem into these smaller, manageable computations, you avoid direct calculation of excessively large numbers.
-    """
 
     if not lst:
         return 1
