@@ -156,3 +156,5 @@ cython_debug/
 .vscode/*
 
 *.out
+
+test.bin
