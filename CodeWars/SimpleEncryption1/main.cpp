@@ -58,8 +58,8 @@ std::string decrypt(std::string encryptedText, int n)
     std::string odd_indicies_numbers;
     std::string even_indicies_numbers;
 
-    std::string initial_working_string;
-    std::string output_string;
+    std::string initial_working_string = encryptedText;
+    std::string output_string = encryptedText;
     int total_length;
     int even_indicies_used;
     int odd_indicies_used;
@@ -68,8 +68,8 @@ std::string decrypt(std::string encryptedText, int n)
     {
         even_indicies_used = 0;
         odd_indicies_used = 0;
-        odd_indicies_numbers = encryptedText.substr(0, midpoint_of_string);
-        even_indicies_numbers = encryptedText.substr(midpoint_of_string);
+        odd_indicies_numbers = initial_working_string.substr(0, midpoint_of_string);
+        even_indicies_numbers = initial_working_string.substr(midpoint_of_string);
         total_length = even_indicies_numbers.length() + odd_indicies_numbers.length();
         initial_working_string.clear();
         for (int i = 0; i < total_length; i++)
@@ -94,7 +94,7 @@ std::string decrypt(std::string encryptedText, int n)
 int main(int argc, char const *argv[])
 {
     std::cout << "Initial: 012345" << std::endl;
-    int n = 1;
+    int n = 2;
     std::string encryptedText = encrypt("012345", n);
     std::cout << encryptedText << std::endl;
     std::string decryptedText = decrypt(encryptedText, n);
