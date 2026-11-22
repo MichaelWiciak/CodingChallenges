@@ -37,3 +37,6 @@ Simple example:
             -24 + 77 = 53
             Region[53] = "1"
     Step 3: "&61kujla"
+
+
+Run: clang++ -Wall -std=c++26 main.cpp -o test.bin
